@@ -1,0 +1,25 @@
+POST http://192.168.0.4:8000/api/register
+Accept: "application/json"
+Content-Type: "application/json"
+
+{
+  "name": "admin",
+  "email": "admin@gmail.com",
+  "password": "Admin12345"
+}
+
+###
+
+POST http://192.168.0.4:8000/api/login
+Content-Type: "application/json"
+
+{
+  "email": "nene@gmail.com",
+  "password": "queen321!"
+}
+
+###
+
+POST http://192.168.0.4:8000/api/logout
+Content-Type: "application/json"
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzAyMTk4Mjk2LCJleHAiOjE3MDIyMDE4OTYsIm5iZiI6MTcwMjE5ODI5NiwianRpIjoiMFJ0SEcxbXJWOWpkSDNFVSIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.obaZKA9ePd1Li8mtSkEqZLQk2UsQE108tHUtK2SE4J8
